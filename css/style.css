@@ -1,0 +1,302 @@
+body {
+    font-family: 'Lora';
+}
+ 
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.landline strong,
+.email {
+    color: rgba(255, 190, 51, 1);
+}
+
+/***************************************
+**************NAVIGATION***************/
+
+.navbar-brand {
+    font-family: "Lora" /*'Pirata One', cursive;*/
+    font-size: 40px;
+    margin: -5px 0 -5px;;
+}
+.nav-link {
+    font-family: "Lora" /*'Pirata One', cursive;*/
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.navbar a:hover {
+    color: #fff !important; 
+}
+
+/***************************************
+**************HEADER***************/
+
+img[src*="trans"] {
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+img[src*="cart&bucket"] {
+    margin-top: 80px;
+}
+
+.raqueen-cover {
+    padding: 30px 0 30px;
+    background: linear-gradient(#ffff80, transparent 90%), 
+                linear-gradient(0deg, #fff, transparent),
+                #ffff80 url('../img/background.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+        
+}
+
+.raqueen-cover .btn {
+    margin: 50px 50px;  
+}
+
+/***************************************
+**************ABOUT********************/
+
+.about h2 {
+    color: #020202;
+}
+
+.about {
+    padding: 170px 0 120px;
+    margin-bottom: 15px;
+}
+
+.about h5 {
+    line-height: 1.5;
+}
+
+/***************************************
+*****************MENU******************/
+
+.menu {
+    padding: 100px 0 150px;
+    text-align: center;
+    background: linear-gradient(#fff, transparent 90%), 
+                linear-gradient(0deg, #fff, transparent),
+                #ffff80 url('../img/fried-chicken-chicken-fried-crunchy-60616.jpeg') no-repeat center;
+    background-size: cover; 
+}
+
+.menu h2 {
+    padding: 30px 0 30px;
+    color: #020202;
+}
+
+.card {
+    color: #fff;
+    background-color: rgba(255, 190, 51, 0.75);
+}
+
+
+
+/***************************************
+*****************SERVICES******************/
+
+.services {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.services h2,
+.services h4 {
+    color: #020202;
+    margin: 20px 0 20px;
+}
+
+
+.services p {
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+.services i {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 25px;
+    border-radius: 50%;
+    background-color: rgba(255, 190, 51, 1);
+    color: #fff;
+}
+
+img[src*="mobile-inclusion"] {
+    height: 500px;
+    width: 100%;
+   
+} 
+
+img[src*="58k"] {
+    height: 400px;
+    width: 100%;
+   
+} 
+
+/***************************************
+*****************CONTACT******************/
+
+.contact::before {
+    color: #fff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    transform-origin: top right;
+    transform: skewY(2deg);
+}
+    
+
+.contact {
+    padding-bottom: 40px;
+    background: #343a40;
+    
+}
+
+.contact h2, h4, h6, p, label {
+    margin: 20px 0 20px;
+    color: #fff;
+}
+
+.contact i {
+    height: 50px;
+    width: 50px;
+    font-size: 18.75px;
+    padding: 15.625px 15.625px;
+    border-radius: 50%;
+    background-color: #CCC;
+    color: #fff;
+    text-align: center;
+}
+
+img[src*="raqueen-map"] {
+    height: 200px;
+    width: 550px;
+} 
+
+
+/***************************************
+*****************FOOTER******************/
+
+footer {
+    background: #343a40;
+}
+
+footer div {
+    color: #ccc;
+}
+
+footer i {
+    height: 50px;
+    width: 50px;
+    font-size: 18.75px;
+    padding: 15.625px 15.625px;
+    border-radius: 50%;
+    background-color: #CCC;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+   
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px 0 20px;
+}
+/***************************************
+**************MEDIA QUERY***************/
+
+@media (max-width: 1024px) {
+    img[src*="trans"]{
+        margin-left: 40px; 
+    }
+    .about {
+        margin-top: 350px;
+    }
+    
+    .raqueen-cover .btn {
+        margin: 30px 0 10px;  
+    }
+
+    #carousel-cover {
+        margin-top: 40px;
+    }
+    
+    .button-wrap {
+        text-align: center;
+    }
+    
+    .card {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #carousel-cover {
+        margin-bottom: 30px;
+    }
+    .about {
+        padding-bottom: 50px;
+        margin-bottom: 15px;
+    }
+    .raqueen-cover {
+        padding: 30px 0 120px;
+        background: linear-gradient(#ffff80, transparent 90%), 
+            linear-gradient(0deg, #fff, transparent),
+            #ffff80 url('../img/background.jpeg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        text-align: center;
+    }
+    
+    img[src*="cart&bucket"] {
+        display: none;
+    }
+    
+    img[src*="trans"] {
+        margin-top: 80px;
+    }
+}
+
+
+  
+    
