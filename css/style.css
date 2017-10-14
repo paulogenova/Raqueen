@@ -1,7 +1,6 @@
 body {
     font-family: 'Lora';
 }
- 
 
 hr.style-eight {
     padding: 0;
@@ -34,23 +33,27 @@ a {
     color: rgba(255, 190, 51, 1);
 }
 
+
 /***************************************
 **************NAVIGATION***************/
 
 .navbar-brand {
-    font-family: "Lora" /*'Pirata One', cursive;*/
+    font-family: "Lora"/*'Pirata One', cursive;*/
     font-size: 40px;
-    margin: -5px 0 -5px;;
+    margin: -5px 0 -5px;
+    ;
 }
+
 .nav-link {
-    font-family: "Lora" /*'Pirata One', cursive;*/
+    font-family: "Lora"/*'Pirata One', cursive;*/
     font-size: 25px;
     margin-left: 25px;
 }
 
 .navbar a:hover {
-    color: #fff !important; 
+    color: #fff !important;
 }
+
 
 /***************************************
 **************HEADER***************/
@@ -66,17 +69,15 @@ img[src*="cart&bucket"] {
 
 .raqueen-cover {
     padding: 30px 0 30px;
-    background: linear-gradient(#ffff80, transparent 90%), 
-                linear-gradient(0deg, #fff, transparent),
-                #ffff80 url('../img/background.jpeg') no-repeat;
+    background: linear-gradient(#ffff80, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffff80 url('../img/background.jpeg') no-repeat;
     background-position: center;
     background-size: cover;
-        
 }
 
 .raqueen-cover .btn {
-    margin: 50px 50px;  
+    margin: 50px 50px;
 }
+
 
 /***************************************
 **************ABOUT********************/
@@ -94,16 +95,15 @@ img[src*="cart&bucket"] {
     line-height: 1.5;
 }
 
+
 /***************************************
 *****************MENU******************/
 
 .menu {
     padding: 100px 0 150px;
     text-align: center;
-    background: linear-gradient(#fff, transparent 90%), 
-                linear-gradient(0deg, #fff, transparent),
-                #ffff80 url('../img/fried-chicken-chicken-fried-crunchy-60616.jpeg') no-repeat center;
-    background-size: cover; 
+    background: linear-gradient(#fff, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffff80 url('../img/fried-chicken-chicken-fried-crunchy-60616.jpeg') no-repeat center;
+    background-size: cover;
 }
 
 .menu h2 {
@@ -115,7 +115,6 @@ img[src*="cart&bucket"] {
     color: #fff;
     background-color: rgba(255, 190, 51, 0.75);
 }
-
 
 
 /***************************************
@@ -132,13 +131,11 @@ img[src*="cart&bucket"] {
     margin: 20px 0 20px;
 }
 
-
 .services p {
     color: #737373;
     font-size: 14px;
     padding-bottom: 40px;
 }
-
 
 .services i {
     height: 80px;
@@ -153,14 +150,13 @@ img[src*="cart&bucket"] {
 img[src*="mobile-inclusion"] {
     height: 500px;
     width: 100%;
-   
-} 
+}
 
 img[src*="58k"] {
     height: 400px;
     width: 100%;
-   
-} 
+}
+
 
 /***************************************
 *****************CONTACT******************/
@@ -175,15 +171,17 @@ img[src*="58k"] {
     transform-origin: top right;
     transform: skewY(2deg);
 }
-    
 
 .contact {
     padding-bottom: 40px;
     background: #343a40;
-    
 }
 
-.contact h2, h4, h6, p, label {
+.contact h2,
+h4,
+h6,
+p,
+label {
     margin: 20px 0 20px;
     color: #fff;
 }
@@ -202,7 +200,7 @@ img[src*="58k"] {
 img[src*="raqueen-map"] {
     height: 200px;
     width: 550px;
-} 
+}
 
 
 /***************************************
@@ -226,40 +224,33 @@ footer i {
     color: #fff;
     text-align: center;
     margin-left: 10px;
-   
 }
 
 .social-media {
     text-align: center;
     padding: 20px 0 20px;
 }
+
+
 /***************************************
 **************MEDIA QUERY***************/
 
-@media (max-width: 1024px) {
-    img[src*="trans"]{
-        margin-left: 40px; 
+@media (min-width: 768px) and (max-width: 1200px) {
+    img[src*="trans"] {
+        margin-left: 40px;
     }
-    .about {
-        margin-top: 350px;
-    }
-    
     .raqueen-cover .btn {
-        margin: 30px 0 10px;  
+        margin: 30px 0 10px;
     }
-
     #carousel-cover {
         margin-top: 40px;
     }
-    
     .button-wrap {
         text-align: center;
     }
-    
     .card {
         margin: auto;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -272,31 +263,41 @@ footer i {
     }
     .raqueen-cover {
         padding: 30px 0 120px;
-        background: linear-gradient(#ffff80, transparent 90%), 
-            linear-gradient(0deg, #fff, transparent),
-            #ffff80 url('../img/background.jpeg') no-repeat;
-        background-position: center;
-        background-size: cover;
     }
+    .raqueen-cover .btn {
+        margin-left: 0;
+    }
+    .button-wrap {
+        text-align: center;
+    }
+    img[src*="trans"] {
+        margin-top: 120px;
+    }
+    .card {
+        margin: 0 auto 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
     .card {
         margin-bottom: 10px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .about {
         text-align: center;
     }
-    
     img[src*="cart&bucket"] {
         display: none;
     }
-    
-    img[src*="trans"] {
-        margin-top: 80px;
-    }
 }
 
-
-  
-    
+@media (max-width: 480px) {
+    .about h5 {
+        line-height: 1.2;
+    }
+    .button-wrap .btn {
+        margin-left: 40px;;
+    }
+}
