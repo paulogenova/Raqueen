@@ -39,14 +39,14 @@ a {
 
 .navbar-brand {
     font-family: "Lora"/*'Pirata One', cursive;*/
-    font-size: 40px;
+        font-size: 40px;
     margin: -5px 0 -5px;
     ;
 }
 
 .nav-link {
     font-family: "Lora"/*'Pirata One', cursive;*/
-    font-size: 25px;
+        font-size: 25px;
     margin-left: 25px;
 }
 
@@ -60,7 +60,7 @@ a {
 
 img[src*="trans"] {
     margin-top: 170px;
-    margin-left: 40px;
+    margin-left: 55px;
 }
 
 img[src*="cart&bucket"] {
@@ -75,8 +75,10 @@ img[src*="cart&bucket"] {
 }
 
 .raqueen-cover .btn {
-    margin: 50px 50px;
+    margin: 50px auto;
 }
+
+button.btn.btn-lg.btn-warning {}
 
 
 /***************************************
@@ -296,8 +298,5 @@ footer i {
 @media (max-width: 480px) {
     .about h5 {
         line-height: 1.2;
-    }
-    .button-wrap .btn {
-        margin-left: 40px;;
     }
 }
