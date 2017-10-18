@@ -75,7 +75,11 @@ img[src*="cart&bucket"] {
 }
 
 .raqueen-cover .btn {
-    margin: 50px auto;
+    margin-top: 50px;
+}
+
+.button-wrap button {
+    margin-left: 80px;
 }
 
 button.btn.btn-lg.btn-warning {}
@@ -298,5 +302,8 @@ footer i {
 @media (max-width: 480px) {
     .about h5 {
         line-height: 1.2;
+    }
+    .button-wrap .btn {
+        /* margin-left: 40px; */
     }
 }
